@@ -1,0 +1,75 @@
+#main{
+    background: url(../images/background.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.bg{
+    height: 350px;
+    border: 1px solid #007aff;
+    background-color: #f8f9fb;
+    border-radius: 5px;
+}
+.bg p{
+    border-bottom: solid 1px gray
+}
+.box-footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+}
+.content-section{
+    padding-top: 50px;
+}
+.list{
+    margin:0;
+    padding-left: 30px;
+    list-style-type: none;
+}
+.list.list-bullets{
+    list-style-type: disc;
+}
+.list.list-horizontal{
+    padding-left: 5px;
+}
+.list.list-horizontal.list-education{
+    padding-top: 10px;
+}
+/*.list-education{*/
+/*    padding-top: 10px;*/
+/*}*/
+.list.list-horizontal li{
+    display: inline;
+}
+header{
+    /*padding-left: 3px;*/
+    /*padding-right: 3px;*/
+    /*padding-top: 3px;*/
+    padding: 3px 3px 0 3px;
+    background-color: 	#007aff;
+    height: 40px;
+}
+
+footer a span{
+    display: none;
+}
+footer a{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    background: url(../images/wizard.png);
+    background-size: contain;
+}
+img{
+    height: 35px;
+}
+p{
+    font-size: 34px;
+}
+#header{
+    color: #fff;
+    font-size: 24px;
+}
+.radio li{
+    margin-right: 5px;
+}
